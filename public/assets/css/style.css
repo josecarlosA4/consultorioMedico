@@ -1,0 +1,108 @@
+.warning {
+	display: flex;
+	flex-direction: column;
+}
+
+#close-button {
+	max-width: 25px;
+}
+
+#edit-button {
+	width: 10%;
+}
+
+.pending-msg {
+	font-size: 23px;
+	color: white;
+}
+
+/*EDIÇÃO DO PERFIL
+----------------------------------------------------------------------------------*/
+
+.flex-profile-edition {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+
+}
+
+.left {
+	width: 100%;
+	max-width: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#image {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.avatarDoctorForm {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.right {
+	flex: 1;
+}
+.footer-profile {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.horizontal {
+	display: flex;
+}
+        
+.text {
+	margin-top: 6px ;
+}
+
+
+@keyframes animation {
+
+	0% {
+		width: 0%;
+	}
+	25% {
+		width:  25%;
+	}
+	50% {
+		width: 50%;
+	}
+	75% {
+		width: 75%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.active {
+	display: flex;
+}
+
+.inative {
+	display: none;
+}
+
+#historic{
+	animation-name: animation;
+	animation-duration: 0.1s;
+}
+
+.profile-image img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
